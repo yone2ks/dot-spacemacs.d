@@ -17,6 +17,7 @@
       ;; package names go here
       f
       s
+      git
       helm-ag
       ))
 
@@ -31,9 +32,13 @@
 (defun gollum/init-s ()
   "Initialize my package"
   )
+(defun gollum/init-git ()
+  "Initialize my package"
+  )
 (defun gollum/init-helm-ag ()
   "Initialize my package"
   )
+
 ;;
 ;; Often the body of an initialize function uses `use-package'
 ;; For more info on `use-package', see readme:
