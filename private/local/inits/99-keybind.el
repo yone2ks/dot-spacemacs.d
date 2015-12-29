@@ -1,4 +1,5 @@
-(bind-key* "C-u" 'undo)
+(bind-key* "C-u" 'undo-tree-undo)
+(bind-key* "M-u" 'undo-tree-redo)
 (bind-key* "C-l" 'backward-char)
 (bind-key* "M-l" 'backward-word)
 (bind-key* "M-t" 'beginning-of-buffer)
