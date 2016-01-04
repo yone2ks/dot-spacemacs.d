@@ -2,7 +2,7 @@
 ;;; Commentary:
 
 ;;; Code:
-(require 'git-commit)
+(require 'git)
 (require 'f)
 (require 's)
 (require 'helm-ag)
