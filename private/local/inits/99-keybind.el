@@ -17,4 +17,3 @@
 (bind-key* "C-x C-f" 'find-file)
 (bind-key* "M-y" 'helm-show-kill-ring)
 (bind-key* "M-x" 'helm-M-x)
-(bind-key* "C-c y" 'helm-c-yas-complete)
