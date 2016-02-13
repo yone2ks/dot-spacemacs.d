@@ -10,3 +10,6 @@
 ;; GTD関連の設定
 (setq org-directory "~/org")
 (setq org-agenda-files (list org-directory))
+
+;; キーバインドの設定
+(bind-key* "C-c C-s" 'org-schedule)
